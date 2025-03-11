@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Aakanksha-Rangdal
 - 👀 I’m interested in keeping things creative and build something new everyday.
 - 🌱 I’m currently pursuing Masters in Computer Science
-- 💞️ I’m looking to collaborate with development projects
+- 💞️ Working as a Frontend Developer at NYS Office of Information Technology
 - 📫 How to reach me- arrangdal@gmail.com
 
 <!---
