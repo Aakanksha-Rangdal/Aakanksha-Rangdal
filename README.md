@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌸 Hi, I'm Aakanksha
 
-## Getting Started
+Frontend Engineer. UX Thinker. Builder of pretty + powerful things.
 
-First, run the development server:
+Currently working as an **Information Technology Specialist 2** at the New York State Office of Information Technology Services, re-platforming NYBE 2.0 with a Java backend and a React + TypeScript frontend.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I care about:
+- Clean UI
+- Thoughtful UX
+- Scalable architecture
+- Code that doesn’t make future-me cry
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 💻 What I Do
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✨ Frontend Development (React, TypeScript, Next.js, Tailwind)  
+✨ UX & Interface Design (Figma)  
+✨ Component modernization & design systems  
+✨ Full-stack collaboration (Java, Node.js, Express, MongoDB)  
 
-## Learn More
+I design it in Figma.  
+Then I build it pixel-perfect.  
+Then I refactor it because I can do better.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Current Work
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🏛 NYBE 2.0
+- Re-platforming legacy systems to modern React architecture  
+- Designing and building dashboard interfaces (desktop + mobile)  
+- Introducing Tailwind CSS into enterprise workflows  
+- Improving usability across large-scale state applications  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌼 Projects I’m Proud Of
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🌸 Blossomy  
+E-commerce platform built with React + Tailwind, powered by a Next.js backend, AWS & Docker.
+
+### ✈️ PlanVoyage  
+A travel genome platform curating personalized destination recommendations using React + Tailwind + Express backend.
+
+### 🧠 Prep Smart  
+AI-powered mock interview platform  
+Node.js backend + React frontend + MongoDB  
+Backend deployed on Render, frontend initially deployed on Netlify.
+
+---
+
+## 🎨 Beyond Code
+
+- Founder & Design Lead of Hackerabad  
+- Former Vice President, Sreenidhi Photography Club  
+- Regional Manager at CodeDay Hyderabad  
+- I love painting, photography, flowers, elephants, and aesthetic dashboards.
+
+Yes, I will redesign something just because it feels off.
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend:**  
+React • TypeScript • Next.js • Tailwind CSS • MUI • HTML • CSS • JavaScript  
+
+**Backend:**  
+Node.js • Express • MongoDB • Java  
+
+**Tools:**  
+Figma • GitHub • AWS • Docker • Render • Netlify  
+
+---
+
+## 📫 Let’s Connect
+
+If you like clean interfaces, meaningful products, and building things that actually help people — we’ll get along.
