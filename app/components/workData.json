@@ -1,0 +1,38 @@
+[
+    {
+      "company": "NYS",
+      "role": "Software Engineer",
+      "time": "Jan 2023 - Present",
+      "description": "Developing and optimizing front-end applications for better performance and user experience.",
+      "logo": "../assets/NYS.png"
+    },
+    {
+      "company": "UAlbany",
+      "role": "Frontend Developer",
+      "time": "Aug 2021 - Dec 2022",
+      "description": "Worked on UI/UX improvements and collaborated with backend teams to enhance product features.",
+      "logo": "../assets/UAlbany.png"
+    },
+    {
+      "company": "CodeDay",
+      "role": "UI/UX Designer",
+      "time": "May 2020 - Jul 2021",
+      "description": "Designed and implemented modern UI elements, ensuring accessibility and responsiveness.",
+      "logo": "../assets/codeDay.png"
+    },
+    {
+      "company": "Hackerabad",
+      "role": "Full Stack Developer",
+      "time": "Feb 2019 - Apr 2020",
+      "description": "Built scalable web applications with a focus on performance and security.",
+      "logo": "../assets/hackerabad.png"
+    },
+    {
+      "company": "SPC",
+      "role": "React Developer",
+      "time": "Jun 2018 - Jan 2019",
+      "description": "Created interactive and high-performance UI components for video streaming services.",
+      "logo": "../assets/SPC.png"
+    }
+  ]
+  
