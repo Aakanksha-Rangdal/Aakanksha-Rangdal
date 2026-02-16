@@ -1,0 +1,15 @@
+{
+  "about": {
+    "title": "About Me",
+    "description": [
+      "Hey there! I'm a creative whirlwind who finds joy in painting, designing sleek visuals on Figma, experimenting in the kitchen, and photography. Dressing up and striking a pose? Absolutely my thing!",
+      "Oh, and did I mention my undying love for flowers, elephants, and talking? Yep, I can chat for hours about anything and everything!"
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": [
+      "Wanna say hi? Go ahead and email me. I love chit-chatting anyways."
+    ]
+  }
+}
