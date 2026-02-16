@@ -4,7 +4,9 @@ import Me from "@/public/images/me.avif";
 import Bow from "@/public/images/bow.png";
 import Leaves from "@/public/images/leaves.png";
 
+
 const Home = () => {
+  
   return (
     <div className="bg-[#E0A299] w-screen min-h-screen">
       <Navbar />
@@ -17,18 +19,18 @@ const Home = () => {
             alt="Me"
             className="w-full m-0"
           />
-          <p className="absolute text-black right-1/3 text-2xl ">
-            Open to work
+          <p className="absolute text-black bottom-10 left-1/4 text-3xl ">
+            Open To Work
           </p>
         </div>
         <div className="text-black flex flex-col justify-end ">
-          <p className="text-3xl ml-10 mb-8">HELLO I'M</p>
-          <p className="text-7xl ml-20 mb-8">AAKANKSHA</p>
-          <p className="text-7xl relative left-75 z-10">RANGDAL</p>
+          <p className="font-tenor text-3xl ml-10 mb-8">HELLO I'M</p>
+          <p className="font-tenor text-7xl ml-20 mb-8">AAKANKSHA</p>
+          <p className="font-tenor text-7xl relative left-75 z-10">RANGDAL</p>
           <div className="my-10">
-            <div className=" mt-10">
-              <p className="ml-68 text-xl">I am a frontend developer</p>
-              <p className="ml-68 text-xl">who loves being creative</p>
+            <div className="font-press-start mt-10">
+              <p className=" text-xl">I am a frontend developer</p>
+              <p className=" text-xl">who loves being creative</p>
             </div>
             <Image src={Leaves} alt="leaves" className="w-85 ml-50" />
             <button className="bg-[#63434030] w-35 text-white px-4 py-2 rounded-md ml-75 mt-5 ">

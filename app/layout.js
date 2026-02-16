@@ -1,8 +1,25 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Tenor_Sans,
+  Press_Start_2P,
+} from "next/font/google";
 import "./globals.css";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+const tenorSans = Tenor_Sans({
+  variable: "--font-tenor-sans",
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
+const pressStart2P = Press_Start_2P({
+  variable: "--font-press-start-2p",
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 const geistMono = Geist_Mono({
@@ -19,7 +36,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-[#E0A299] antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${tenorSans.variable} ${pressStart2P.variable} bg-[#E0A299] antialiased`}
       >
         {children}
       </body>
