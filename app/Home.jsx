@@ -4,7 +4,6 @@ import Me from "@/public/images/me.avif";
 import Bow from "@/public/images/bow.png";
 import Leaves from "@/public/images/leaves.png";
 
-
 const Home = () => {
   
   return (
@@ -31,6 +30,7 @@ const Home = () => {
             <div className="font-press-start mt-10">
               <p className=" text-xl">I am a frontend developer</p>
               <p className=" text-xl">who loves being creative</p>
+              
             </div>
             <Image src={Leaves} alt="leaves" className="w-85 ml-50" />
             <button className="bg-[#63434030] w-35 text-white px-4 py-2 rounded-md ml-75 mt-5 ">
