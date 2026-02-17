@@ -1,11 +1,12 @@
+"use client";
 import Image from "next/image";
 import Navbar from "@/app/Navbar";
 import Me from "@/public/images/me.avif";
 import Bow from "@/public/images/bow.png";
 import Leaves from "@/public/images/leaves.png";
-
+import TypeIt from "typeit-react";
 const Home = () => {
-  
+  const roles = ["an UI/UX Designer", "a Frontend Engineer", "an Artist"];
   return (
     <div className="bg-[#E0A299] w-screen min-h-screen">
       <Navbar />
@@ -27,10 +28,28 @@ const Home = () => {
           <p className="font-tenor text-7xl ml-20 mb-8">AAKANKSHA</p>
           <p className="font-tenor text-7xl relative left-75 z-10">RANGDAL</p>
           <div className="my-10">
-            <div className="font-press-start mt-10">
-              <p className=" text-xl">I am a frontend developer</p>
-              <p className=" text-xl">who loves being creative</p>
-              
+            <div className="font-press-start text-xl ml-20">
+              <div className="">
+                I am{" "}
+                <TypeIt
+                  options={{
+                    speed: 50,
+                    loop: true,
+                    waitUntilVisible: true,
+                    deleteSpeed: 50,
+                  }}
+                  getBeforeInit={(instance) => {
+                    roles.forEach((role, index) => {
+                      instance.type(role).pause(1500).delete(role.length);
+                      // Prevent extra delete on last loop cycle
+                      if (index === roles.length - 1) {
+                        instance.pause(300);
+                      }
+                    });
+                    return instance;
+                  }}
+                />
+              </div>
             </div>
             <Image src={Leaves} alt="leaves" className="w-85 ml-50" />
             <button className="bg-[#63434030] w-35 text-white px-4 py-2 rounded-md ml-75 mt-5 ">
