@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Link from 'next/link'
 
 const roles = ["a Designer", "a Storyteller", "a Creator", "a Problem Solver"];
 
@@ -63,12 +64,12 @@ export default function Hero() {
           className="mt-8 md:mt-12 flex flex-wrap gap-3 md:gap-5 items-center"
           style={{ animation: "fadeUp 0.8s 0.9s both" }}
         >
-          <a
+          <Link
             href="/experience"
             className="px-6 md:px-9 py-3 md:py-3.5 bg-dark text-cream font-body text-[0.78rem] tracking-[0.12em] uppercase border-2 border-dark hover:bg-terracotta hover:border-terracotta transition-all duration-300"
           >
             View Experience
-          </a>
+          </Link>
           <a
             href="/resume.pdf"
             target="_blank"
