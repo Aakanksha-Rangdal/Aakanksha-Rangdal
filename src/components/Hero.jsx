@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Link from 'next/link'
+import { Link } from "react-router-dom";
 
 const roles = ["a Designer", "a Storyteller", "a Creator", "a Problem Solver"];
 
@@ -70,14 +70,14 @@ export default function Hero() {
           >
             View Experience
           </Link>
-          <a
+          <Link
             href="/resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="px-6 md:px-9 py-3 md:py-3.5 bg-transparent text-dark font-body text-[0.78rem] tracking-[0.12em] uppercase border-2 border-dark hover:bg-dark hover:text-cream transition-all duration-300"
           >
             Resume
-          </a>
+          </Link>
         </div>
       </div>
 
