@@ -65,13 +65,13 @@ export default function Hero() {
           style={{ animation: "fadeUp 0.8s 0.9s both" }}
         >
           <Link
-            href="/experience"
+            to="/experience"
             className="px-6 md:px-9 py-3 md:py-3.5 bg-dark text-cream font-body text-[0.78rem] tracking-[0.12em] uppercase border-2 border-dark hover:bg-terracotta hover:border-terracotta transition-all duration-300"
           >
             View Experience
           </Link>
           <Link
-            href="/resume.pdf"
+            to="/resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="px-6 md:px-9 py-3 md:py-3.5 bg-transparent text-dark font-body text-[0.78rem] tracking-[0.12em] uppercase border-2 border-dark hover:bg-dark hover:text-cream transition-all duration-300"
